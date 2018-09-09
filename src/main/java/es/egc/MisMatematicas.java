@@ -2,8 +2,13 @@ package es.egc;
 import org.apache.log4j.*; 
 
 /**
+<<<<<<< HEAD:src/main/java/es/egc/MisMatematicas.java
  * DIVISION
  *
+=======
+ * MULTIPLICACION
+ * DIVISION
+>>>>>>> next:src/main/java/es/egc/App1.java
  */
 public class MisMatematicas 
 {
@@ -18,6 +23,12 @@ public class MisMatematicas
 	public static int divide(int a, int b){
 		int result= a/b;
 		log.info("Returning "+a+"/"+b+"="+result);
+		return result;
+	}
+	
+	public static int multiplica(int a, int b){
+		int result= a*b;
+		log.info("Returning "+a+"*"+b+"="+result);
 		return result;
 	}
 }
