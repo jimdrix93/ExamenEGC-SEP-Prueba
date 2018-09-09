@@ -2,7 +2,7 @@ package es.egc;
 import org.apache.log4j.*; 
 
 /**
- * DIVISION
+ * MULTIPLICACION
  *
  */
 public class App1 
@@ -12,12 +12,12 @@ public class App1
 	public static void main(String[] args) {
 		int a = 10;
 		int b = 2;
-		System.out.println(a + "/" + b + " = " + App1.divide(a,b));
+		System.out.println(a + "*" + b + " = " + App1.multiplica(a,b));
 	}
 	
 	public static int divide(int a, int b){
 		int result= a*b;
-		log.info("Returning "+a+"/"+b+"="+result);
+		log.info("Returning "+a+"*"+b+"="+result);
 		return result;
 	}
 }
